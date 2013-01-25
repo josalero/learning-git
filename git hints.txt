@@ -1,0 +1,31 @@
+GIT commands
+git clone git://github.com/schacon/grit.git mygrit
+-------------
+SSH
+ssh-keygen -t rsa -C "josalero@gmail.com"
+clip < dir/[filename].pub
+-------------
+git tag
+-------------
+git push origin master
+git push origin v1
+git remote add local_proj /opt/git/project.git
+-------------
+git log --pretty=oneline
+-------------
+git config --global alias.unstage ’reset HEAD --’
+git config --global alias.last ’log -1 HEAD’
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+-------------
+git checkout -b iss53
+-------------
+Branches
+git branch -d hotfix ---Borrar
+git checkout -a "branch" --- Anadir uno
+git branch --no-merged
+--------------------
+Remote Branches
+git push -u origin your_branch ------ Adding remote branches from local
+git checkout --track -b r14 origin/r14
+git push origin r14:r14 o git push
